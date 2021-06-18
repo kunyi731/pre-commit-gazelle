@@ -2,5 +2,5 @@
     name: 'bazel run //:gazelle'
     description: This hook runs [Gazelle build generator](https://github.com/bazelbuild/bazel-gazelle)
     entry: run-bazel-gazelle.sh
-    files: '\.go$'
+    files: '\.(go|bazel|bzl|BUILD)$'
     language: script
